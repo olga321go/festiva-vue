@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import HomeCarousel from '@/components/HomeCarousel.vue';
+</script>
 
 <template>
   <div class="container-fluid bg-primary border-bottom border-secondary border-4 mb-5">
@@ -50,26 +52,7 @@
         <button class="btn btn-primary text-white">Join the Community</button>
       </div>
       <div class="col-lg-7">
-        <div id="carouselExampleSlidesOnly" class="carousel slide shadow" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="@/assets/images/home/home-carousel-1.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="@/assets/images/home/home-carousel-2.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="@/assets/images/home/home-carousel-3.jpeg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img src="@/assets/images/home/home-carousel-4.jpg" class="d-block w-100" alt="..." />
-            </div>
-          </div>
-        </div>
+        <HomeCarousel />
       </div>
     </div>
   </div>
